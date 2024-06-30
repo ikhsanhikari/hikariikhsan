@@ -8,10 +8,10 @@
       "name": "Blog",
       "url": "/blog"
     },
-    {
+    /*{
       "name": "Pricing",
       "url": "/pricing"
-    },
+    },*/
     {
       "name": "Contact",
       "url": "/contact"
@@ -20,10 +20,10 @@
       "name": "FAQ",
       "url": "/faq"
     },
-    {
+    /*{
       "name": "Elements",
       "url": "/elements"
-    }
+    }*/
   ],
   "footer": [
     {
