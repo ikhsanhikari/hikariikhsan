@@ -8,10 +8,10 @@
       "name": "Blog",
       "url": "/blog"
     },
-    /*{
-      "name": "Pricing",
-      "url": "/pricing"
-    },*/
+    //{
+      //"name": "Pricing",
+      //"url": "/pricing"
+    //},
     {
       "name": "Contact",
       "url": "/contact"
