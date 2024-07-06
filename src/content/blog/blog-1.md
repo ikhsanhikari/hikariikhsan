@@ -16,14 +16,17 @@ Integrasi mudah dengan ekosistem Spring lainnya.
 Memulai dengan Spring WebFlux
 Untuk memulai, kita akan membuat aplikasi sederhana menggunakan Spring Boot dan Spring WebFlux. Berikut adalah langkah-langkahnya:
 
-1. Persiapan Proyek
+## 1. Persiapan Proyek
 Buat proyek Spring Boot baru dengan dependensi spring-boot-starter-webflux. Kamu bisa menggunakan Spring Initializr atau menambahkan dependensi langsung di build.gradle atau pom.xml.
 
+```
 plugins {
     id 'org.springframework.boot' version '2.6.4'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
+```
+
 ```
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
@@ -54,7 +57,7 @@ pom.xml
 </dependencies>
 ```
 
-2. Membuat Controller
+## 2. Membuat Controller
 Selanjutnya, kita akan membuat controller sederhana untuk menangani permintaan HTTP.
 
 ```
@@ -75,7 +78,7 @@ public class HelloController {
 ```
 Controller di atas akan menangani permintaan GET ke endpoint /hello dan mengembalikan Mono<String>, yang merupakan tipe reaktif yang mewakili satu nilai atau error.
 
-3. Menjalankan Aplikasi
+## 3. Menjalankan Aplikasi
 Sekarang, jalankan aplikasi Spring Boot dengan menjalankan kelas utama:
 
 ```
